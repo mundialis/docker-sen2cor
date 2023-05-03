@@ -43,7 +43,7 @@
     <!-- FALSE: no DDV output, TRUE: store DDV in the QI_DATA directory -->
     <Handle_L1C_QLT_Mask>FALSE</Handle_L1C_QLT_Mask>
     <!-- FALSE: no handling of L1C Quality Mask, TRUE: handling L1C Quality Mask -->
-    <Downsample_20_to_60>TRUE</Downsample_20_to_60>
+    <Downsample_20_to_60>FALSE</Downsample_20_to_60>
     <!-- TRUE: create additional 60m bands when 20m is processed -->
     <PSD_Version>DEFAULT</PSD_Version>
     <!-- Special entry for forcing a special PSD Version to be processed
@@ -130,7 +130,7 @@
       <!-- FALSE: no cirrus correction applied, TRUE: cirrus correction applied -->
       <DEM_Terrain_Correction>TRUE</DEM_Terrain_Correction>
       <!--Use DEM for Terrain Correction, otherwise only used for WVP and AOT -->
-      <BRDF_Correction>1</BRDF_Correction>
+      <BRDF_Correction>2</BRDF_Correction>
       <!-- 0: no BRDF correction, 1, 2: see IODD for explanation -->
       <BRDF_Lower_Bound>0.22</BRDF_Lower_Bound>
       <!-- In most cases, g=0.2 to 0.25 is adequate, in extreme cases of overcorrection g=0.1 should be applied -->
